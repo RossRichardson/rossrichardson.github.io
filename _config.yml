@@ -12,14 +12,19 @@ email:
 description: >-
   I write about software engineering topics, devops, cloud
   and anything else that interests me.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "rossrichardson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+# the subpath of your site, e.g. /blog
+baseurl: ""
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "rossrichardson.github.io"
+twitter_username: rossjrichardson
 github_username: rossrichardson
 
 # Build settings
 plugins:
   - jekyll-feed
+
+disqus:
+  shortname: rossrichardson-github-io
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
