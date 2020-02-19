@@ -2,6 +2,7 @@
 layout: post
 title: "Why we need trunk based development practices"
 date: "2020-02-02 10:41:21 +1100"
+comments: true
 ---
 
 # Trunk Based Development
