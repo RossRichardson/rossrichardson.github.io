@@ -76,7 +76,7 @@ There are square blocks, lines, corners, s-shapes.. but what if we could simply
 break down these pieces in to their single unit square blocks?
 Tetris would be a simpler game indeed. The system is geared toward deployment.
 
-![tetris]({{ site.url }}/assets/posts/1_tetris.jpeg)
+![tetris](https://{{ site.url }}/assets/posts/1_tetris.jpeg)
 
 We can identify some overhead here. We still need to break up these big units of
 work in to smaller units. This process is valueable in itself and we realise
