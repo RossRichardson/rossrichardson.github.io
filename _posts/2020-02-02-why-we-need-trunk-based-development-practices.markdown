@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "Why we need trunk based development practices"
+title: "Trunk based development practices"
 date: "2020-02-02 10:41:21 +1100"
 comments: true
 ---
+
+Why do we need trunk based development practices? In a series of posts, let's
+discuss TBD and associated practices.
 
 # Trunk Based Development
 
