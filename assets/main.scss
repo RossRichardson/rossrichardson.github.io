@@ -3,3 +3,39 @@
 ---
 
 @import "minima";
+
+.post-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  @include relative-font-size(2.725);
+  // size: ~50px
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 1.25;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.35);
+  }
+}
+
+.post-meta {
+  font-size: 15px;
+  font-family: Helvetica Neue;
+  text-align: center;
+}
+
+span.username {
+  display: none;
+}
+
+.social-media-list {
+  text-align: center;
+}
+
+.social-media-list li {
+  display: inline;
+}
+
+.svg-icon {
+  fill: #00ce2a;
+}
