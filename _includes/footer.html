@@ -3,37 +3,23 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
+      <!-- first column -->
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
+        <div>Built using</div>
         <div>
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          <a class="page-link" href="/minima-theme.html">minima</a>
         </div>
-        {%- endif -%}
-      {%- endfor -%}
+        <div>
+          <a class="page-link" href="/vim-jekyll.html">jekyll.vim</a>
+        </div>
       </div>
-
+      <!-- second column -->
+      <div class="footer-col footer-col-2">
+      </div>
+      <!-- third column -->
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
       </div>
     </div>
 
